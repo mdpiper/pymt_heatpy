@@ -1,0 +1,32 @@
+[library]
+[library.HeatModelPy]
+language = "python"
+library = "bmi_heat"
+header = ""
+entry_point = "BmiHeat"
+
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_heatpy"
+requirements = []
+
+[info]
+github_username = "pymt-lab"
+package_author = "csdms"
+package_author_email = "csdms@colorado.edu"
+package_license = "MIT"
+summary = "PyMT plugin for heatpy model"
+
+
+[ci]
+python_version = ["3.9"]
+os = ["linux", "mac", "windows"]
+
