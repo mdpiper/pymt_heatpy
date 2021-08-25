@@ -44,7 +44,7 @@ print(" - grid type:", m.grid_type(grid_id))
 print(" - rank:", m.grid_ndim(grid_id))
 # print(" - size:", m.grid_node_count(grid_id))
 grid_size = int(np.prod(m.grid_shape(grid_id)))  # tmp fix
-print(" - size:", grid_size)                     # tmp fix
+print(" - size:", grid_size)  # tmp fix
 print(" - shape:", m.grid_shape(grid_id))
 
 # Get the initial values of the variable.
@@ -54,7 +54,7 @@ print(m.var[var_name].data)
 print(" - values, redimensionalized:")
 print(m.var[var_name].data.reshape(m.grid_shape(grid_id)))
 
-# # Set new values. Not currently working pending fix. 
+# # Set new values. Not currently working pending fix.
 # print("Set new values of {}...".format(var_name))
 # new = np.zeros(grid_size, dtype=float)
 # new[20] = 10.0
