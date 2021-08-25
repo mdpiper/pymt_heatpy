@@ -58,15 +58,15 @@ origin_x:
     default: 0.0
     units: m
     range:
-      min: 1E-6
+      min: -1E6
       max: 1E6
 
 origin_y:
-  description: Locationh of grid origin in y-direction
+  description: Location of grid origin in y-direction
   value:
     type: float
     default: 0.0
     units: m
     range:
-      min: 1E-6
+      min: -1E6
       max: 1E6
