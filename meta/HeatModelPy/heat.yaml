@@ -1,0 +1,11 @@
+# Heat model configuration
+shape:
+  - {{number_of_rows}}
+  - {{number_of_columns}}
+spacing:
+  - {{spacing_x}}
+  - {{spacing_y}}
+origin:
+  - {{origin_x}}
+  - {{origin_y}}
+alpha: {{thermal_diffusivity}}
