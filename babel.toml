@@ -1,10 +1,9 @@
 [library]
 [library.HeatModelPy]
 language = "python"
-library = "bmi_heat"
+library = "heat"
 header = ""
 entry_point = "BmiHeat"
-
 
 [build]
 undef_macros = []
@@ -24,7 +23,6 @@ package_author = "csdms"
 package_author_email = "csdms@colorado.edu"
 package_license = "MIT"
 summary = "PyMT plugin for heatpy model"
-
 
 [ci]
 python_version = ["3.9"]
