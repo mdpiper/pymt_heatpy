@@ -23,7 +23,7 @@ long_description = u"\n\n".join(
 
 setup(
     name="pymt_heatpy",
-    author="csdms",
+    author="CSDMS",
     author_email="csdms@colorado.edu",
     description="PyMT plugin for pymt_heatpy",
     long_description=long_description,

@@ -51,11 +51,11 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 pymt_heatpy
+	flake8 pymt_heatpy examples
 
 pretty:
 	find pymt_heatpy -name '*.py' | xargs isort
-	black setup.py pymt_heatpy
+	black setup.py pymt_heatpy examples
 
 test: ## run tests quickly with the default Python
 	bmi-test pymt_heatpy.bmi:HeatModelPy -vvv

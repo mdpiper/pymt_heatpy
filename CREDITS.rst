@@ -1,4 +1,4 @@
 Credits
 =======
 
-* csdms <csdms@colorado.edu>
+* CSDMS <csdms@colorado.edu>
