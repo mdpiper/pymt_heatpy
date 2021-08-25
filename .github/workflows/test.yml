@@ -47,7 +47,7 @@ jobs:
 
       - name: Make Python example
         run: |
-          pushd ../external/bmi-example-python
+          pushd ./external/bmi-example-python
           make install
           popd
 
