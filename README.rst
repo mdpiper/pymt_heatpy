@@ -14,15 +14,14 @@ pymt_heatpy
         :target: https://pymt-heatpy.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://github.com/pymt-lab/pymt_heatpy/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_heatpy/actions/workflows/test.yml
+.. image:: https://github.com/mdpiper/pymt_heatpy/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/mdpiper/pymt_heatpy/actions/workflows/test.yml
 
-.. image:: https://github.com/pymt-lab/pymt_heatpy/actions/workflows/flake8.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_heatpy/actions/workflows/flake8.yml
+.. image:: https://github.com/mdpiper/pymt_heatpy/actions/workflows/flake8.yml/badge.svg
+        :target: https://github.com/mdpiper/pymt_heatpy/actions/workflows/flake8.yml
 
-.. image:: https://github.com/pymt-lab/pymt_heatpy/actions/workflows/black.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_heatpy/actions/workflows/black.yml
-
+.. image:: https://github.com/mdpiper/pymt_heatpy/actions/workflows/black.yml/badge.svg
+        :target: https://github.com/mdpiper/pymt_heatpy/actions/workflows/black.yml
 
 PyMT plugin for heatpy model
 
