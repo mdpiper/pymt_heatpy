@@ -50,10 +50,8 @@ print(" - itemsize:", m.get_var_itemsize(var_name))
 print(" - nbytes:", m.get_var_nbytes(var_name))
 
 # Set the initial temperature values.
-# new = np.zeros(grid_size, dtype=float)  # correct
-# new[20] = 10.0
-new = np.zeros(grid_shape, dtype=float)  # incorrect, pending fix
-new[2, 3] = 10.0
+new = np.zeros(grid_size, dtype=float)  # correct
+new[20] = 10.0
 m.set_value(var_name, new)
 val = np.empty(grid_size, dtype=float)
 m.get_value(var_name, val)
