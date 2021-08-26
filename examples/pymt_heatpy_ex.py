@@ -54,16 +54,16 @@ print(m.var[var_name].data)
 print(" - values, redimensionalized:")
 print(m.var[var_name].data.reshape(m.grid_shape(grid_id)))
 
-# # Set new values. Not currently working pending fix.
-# print("Set new values of {}...".format(var_name))
-# new = np.zeros(grid_size, dtype=float)
-# new[20] = 10.0
-# m.set_value(var_name, new)
-# val = m.var[var_name].data
-# print(" - values, flattened:")
-# print(val)
-# print(" - values, redimensionalized:")
-# print(val.reshape(m.grid_shape(grid_id)))
+# Set new values.
+print("Set new values of {}...".format(var_name))
+new = np.zeros(grid_size, dtype=float)
+new[20] = 10.0
+m.set_value(var_name, new)
+val = m.var[var_name].data
+print(" - values, flattened:")
+print(val)
+print(" - values, redimensionalized:")
+print(val.reshape(m.grid_shape(grid_id)))
 
 # Advance the model by one time step.
 m.update()
