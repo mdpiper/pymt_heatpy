@@ -27,7 +27,7 @@ setup(
     author_email="csdms@colorado.edu",
     description="PyMT plugin for pymt_heatpy",
     long_description=long_description,
-    version="0.2.dev0",
+    version="0.1.1",
     url="https://github.com/pymt-lab/pymt_heatpy",
     classifiers=[
         "Development Status :: 4 - Beta",
