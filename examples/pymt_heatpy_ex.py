@@ -42,9 +42,8 @@ grid_id = m.var_grid(var_name)
 print(" - grid id:", grid_id)
 print(" - grid type:", m.grid_type(grid_id))
 print(" - rank:", m.grid_ndim(grid_id))
-# print(" - size:", m.grid_node_count(grid_id))
-grid_size = int(np.prod(m.grid_shape(grid_id)))  # tmp fix
-print(" - size:", grid_size)  # tmp fix
+grid_size = m.grid_node_count(grid_id)
+print(" - size:", grid_size)
 print(" - shape:", m.grid_shape(grid_id))
 
 # Get the initial values of the variable.
